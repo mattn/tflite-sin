@@ -1,5 +1,5 @@
-TENSORFLOW_ROOT = c:/users/mattn/go/src/github.com/tensorflow/tensorflow
-OS_ARCH = windows_x86_64
+TENSORFLOW_ROOT = /home/mattn/go/src/github.com/tensorflow/tensorflow
+OS_ARCH = linux_x86_64
 CXXFLAGS ?= -I $(TENSORFLOW_ROOT) \
 	-I $(TENSORFLOW_ROOT)/tensorflow/lite/tools/make/downloads/flatbuffers/include
 LDFLAGS ?= -L $(TENSORFLOW_ROOT)/tensorflow/lite/tools/make/gen/$(OS_ARCH)/lib \
