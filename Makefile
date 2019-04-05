@@ -13,4 +13,4 @@ tflite-sin: main.cc
 	g++ --std=c++11 main.cc -O3 $(CXXFLAGS) $(LDFLAGS) -ltensorflow-lite -lstdc++ -lpthread -ldl -lm -o tflite-sin
 
 clean:
-	rm -f lite2
+	rm -f tflite-sin
